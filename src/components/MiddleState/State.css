@@ -1,0 +1,47 @@
+.ParentState{
+background-color: var(--f-c);
+padding: 2em;
+transform: translateY(300px);
+}
+.State{
+ background-color: var(--s-c);
+color: var(--fn-c);
+text-align: center;
+padding: 3em;
+width: 100%;
+margin: 0 auto;
+border-radius: 100vmax;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+/* grid-gap: 40px;
+gap: 40px; */
+}
+.State h1{
+border-left: 4px solid var(--fn-c);
+padding-left: 15px;
+width: fit-content;
+margin: 0;
+}
+.State div{
+    display: flex;
+    flex-direction: column;
+}
+.State span{
+font-weight: 700;
+font-size: 2em;
+display: block;
+margin-bottom: -15px;
+}
+.State p{
+    font-size: 20px;
+}
+@media (max-width:700px){
+.State {
+    flex-direction: column;
+}
+.State h1{
+    border-left: none ;
+    border-bottom: 4px solid var(--fn-c);
+}
+}

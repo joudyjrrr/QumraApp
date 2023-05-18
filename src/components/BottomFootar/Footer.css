@@ -1,0 +1,29 @@
+.footer{
+/* padding: 50px 0; */
+background-color: #ecece9;
+transform: translateY(400px);
+text-align: center;
+}
+.title{
+    color: var(--f-c);
+    padding-top: 40px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social a{
+ transition-duration: var(--min-d);
+width: 3.5em;
+height: 3.5em;
+box-shadow: 0 3px 4px 1px #989898,0 -3px 10px 0 #fff;
+padding: .3em;
+border-radius: 20px;
+background-color: #e2e4e4;
+margin: 16px 30px;
+}
+.social img{
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Tajawal",sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--b-c);
+  direction: rtl;
+  padding: 0;
+  margin: 0
+}
+:root{
+  box-sizing: border-box;
+  --f-c: #2e5749;
+  --f-c-o: rgba(46,87,73,0.5137254901960784);
+  --s-c: #f3c623;
+  --b-c: #fffffa;
+  --fn-c: #fff;
+  --min-d: 0.3s;
+  --mid-d: 0.5s;
+  scroll-behavior: smooth;
+}

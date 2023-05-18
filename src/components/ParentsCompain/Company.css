@@ -1,0 +1,70 @@
+.parentCompany{
+    width: 100%;
+    transform: translateY(400px);
+    background-color: #ecece9;
+}
+.parentCompany .Title{
+background-color: var(--f-c);
+color: var(--fn-c);
+font-weight: 500;
+}
+.Title h2{
+    padding:15px 25px;
+}
+.companyGroub{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.companyGroub img{
+      width: 150px;
+      height: 150px;
+      border: 10px solid var(--f-c);
+      border-radius: 100vmax;
+      object-fit: cover;
+      place-self: center;
+      margin: 5px 30px;
+}
+.companyGroubSquare{
+  width: 690px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* flex-wrap: wrap; */
+}
+.companyGroubSquare img{
+width: 180px;
+height: 180px;
+place-self: center;
+margin: 5px 30px;
+}
+@media (max-width:762px) {
+ .companyGroubSquare {
+flex-wrap: wrap !important;
+ }
+}
+.slide-right {
+	-webkit-animation: slide-right 0.5s linear 0.5s infinite alternate both;
+	        animation: slide-right 0.5s linear 0.5s infinite alternate both;
+}
+ @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  
